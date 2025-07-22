@@ -1,12 +1,25 @@
-# React + Vite
+# Pizza Hut Restaurant
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Pizza Hut  is a modern restaurant website built with Supabase , React, Tailwind CSS, and Flowbite. It showcases the restaurant's identity, menu, history, and contact information through four main pages, with menu data dynamically fetched from a Supabase database.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Pages
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1-Home Page: Displays the restaurant's branding and main offerings
+
+2-Menu Page: Showcases dishes with images, descriptions, and prices fetched from Supabase
+
+3-About Page: Shares the restaurant's story and history
+
+4-Contact Page: Provides contact details and an embedded map
+
+## Tech Stack
+
+React: JavaScript library for building user interfaces
+
+Supabase: Open-source backend-as-a-service for managing menu data
+
+Tailwind CSS: Utility-first CSS framework for styling
+
+Flowbite: Component library built on top of Tailwind CSS
