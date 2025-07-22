@@ -16,7 +16,8 @@ function App() {
         document.documentElement.classList.remove('dark')
     }
     
-  const routes =createBrowserRouter([{
+  const routes =createBrowserRouter(
+    [{
     path:"",element:<Layout/>,children:[
       {index:true , element:<Home/>},
       {path:"about", element:<About/>},
@@ -25,7 +26,9 @@ function App() {
       {path:"*",element: <NotFound/>}
       
     ]
-  }])
+  }],
+  { basename: '/pizzaHut_Restaurant' }
+)
 
 
   return (

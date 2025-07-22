@@ -64,7 +64,7 @@ function Menu() {
         <Loader />
       ) : (
         <div className='container px-5 lg:px-20 mx-auto mt-20'>
-          <div className="mb-4 border-b border-gray-200">
+          <div className="mb-4 border-b border-gray-200 pb-3">
             <ul
               className="flex flex-wrap justify-around text-sm font-medium text-center"
               id="default-styled-tab"
@@ -79,7 +79,7 @@ function Menu() {
                     onClick={() => {
                       setSelectedCategoryId(category.category_id);
                     }}
-                    className="inline-block p-4 border-b-2"
+                    className="inline-block py-2 px-4 border rounded-sm"
                     id={`tab-${category.category_id}`}
                     data-tabs-target={`#panel-${category.category_id}`}
                     type="button"

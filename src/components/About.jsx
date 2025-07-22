@@ -10,7 +10,7 @@ function About() {
 
   return (
     <>  
-    <div className="xl:px-40 2xl:px-60  bg-center bg-cover py-10" style={{backgroundImage:`url(${oldBG})`}}>
+    <div className="xl:px-40 2xl:px-60  bg-center bg-cover py-10" style={{background:`url(${oldBG})`}}>
       <div className="container px-5 md:px-16 lg:px-20 mx-auto mt-14">
       <h2 className="text-lg  md:text-2xl font-semibold pb-1 border-b-2 border-red-500 inline-block">OUR STORY</h2>
       <div className="sm:grid sm:grid-cols-2 items-center">

@@ -3,14 +3,14 @@ function Contact() {
   return (
     <>
       <div className="container px-5 md:px-16 lg:px-20 mx-auto py-10 mt-12">
-        <div className="text-center border-b-2 border-gray-100 py-5 mb-10">
+        <div className="text-center border-b border-gray-200 dark:border-gray-700 py-5 mb-10">
           <h2 className="text-lg md:text-2xl font-semibold inline-block text-red-500 pb-2">Contact Us</h2>
-          <p className="text-gray-500">
+          <p className="text-gray-700 dark:text-gray-200">
             Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within a matter of hours to help you.
           </p>
         </div>
         <div className="lg:grid lg:grid-cols-3 gap-10 ">
-            <form className="col-span-2 border border-gray-200 shadow-md rounded-lg p-10 mb-10"> 
+          <form className="col-span-2 border border-gray-200 dark:border-gray-700 shadow-md rounded-lg p-10 mb-10"> 
           <div className="grid gap-6 mb-6 md:grid-cols-2">
             <div>
               <label htmlFor="first_name" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
@@ -19,7 +19,7 @@ function Contact() {
               <input
                 type="text"
                 id="first_name"
-                className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-1 focus:ring-red-500 focus:border-red-500 focus:outline-none block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-red-500 dark:focus:border-red-500"
+                className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-1 focus:ring-red-500 focus:border-red-500 focus:outline-none block w-full p-2.5 dark:bg-white dark:border-gray-300 dark:placeholder-gray-400 dark:text-black dark:focus:ring-red-300 dark:focus:border-red-300"
                 placeholder="John"
                 required
               />
@@ -31,7 +31,7 @@ function Contact() {
               <input
                 type="text"
                 id="last_name"
-                className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-1 focus:ring-red-500 focus:border-red-500 focus:outline-none block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-red-500 dark:focus:border-red-500"
+                className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-1 focus:ring-red-500 focus:border-red-500 focus:outline-none block w-full p-2.5 dark:bg-white dark:border-gray-300 dark:placeholder-gray-400 dark:text-black dark:focus:ring-red-300 dark:focus:border-red-300"
                 placeholder="Doe"
                 required
               />
@@ -43,7 +43,7 @@ function Contact() {
               <input
                 type="tel"
                 id="phone"
-                className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-1 focus:ring-red-500 focus:border-red-500 focus:outline-none block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-red-500 dark:focus:border-red-500"
+                className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-1 focus:ring-red-500 focus:border-red-500 focus:outline-none block w-full p-2.5 dark:bg-white dark:border-gray-300 dark:placeholder-gray-400 dark:text-black dark:focus:ring-red-300 dark:focus:border-red-300"
                 placeholder="123-45-678"
                 pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
                 required
@@ -56,7 +56,7 @@ function Contact() {
               <input
                 type="email"
                 id="email"
-                className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-1 focus:ring-red-500 focus:border-red-500 focus:outline-none block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-red-500 dark:focus:border-red-500"
+                className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-1 focus:ring-red-500 focus:border-red-500 focus:outline-none block w-full p-2.5 dark:bg-white dark:border-gray-300 dark:placeholder-gray-400 dark:text-black dark:focus:ring-red-300 dark:focus:border-red-300"
                 placeholder="john.doe@company.com"
                 required
               />
@@ -69,7 +69,7 @@ function Contact() {
             <textarea
               id="message"
               rows="4"
-              className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-1 focus:ring-red-500 focus:border-red-500 focus:outline-none dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-red-500 dark:focus:border-red-500"
+              className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-1 focus:ring-red-500 focus:border-red-500 focus:outline-none dark:bg-white dark:border-gray-300 dark:placeholder-gray-400 dark:text-black dark:focus:ring-red-300 dark:focus:border-red-300"
               placeholder="Write your thoughts here..."
             ></textarea>
           </div>
@@ -82,7 +82,7 @@ function Contact() {
           </button>
         </form>
 
-        <div className="border border-gray-200 shadow-md rounded-lg p-10 h-fit">
+        <div className="border border-gray-200 dark:border-gray-700 shadow-md rounded-lg p-10 h-fit">
           <p className="text-red-500 text-lg">GET IN TOUCH</p>
           <div className="border-b border-gray-200 py-2">
             <div className="flex gap-2">
@@ -91,7 +91,7 @@ function Contact() {
               </svg>
               <p>Address</p>
             </div>
-            <p className="text-gray-500 text-sm">St. in front of the zoo, Mourad, Oula, Al Giza, Giza Governorate 3726522</p>
+            <p className="text-gray-500 text-sm dark:text-gray-300">St. in front of the zoo, Mourad, Oula, Al Giza, Giza Governorate 3726522</p>
           </div>
 
                     <div className="border-b border-gray-200 py-2">
@@ -101,7 +101,7 @@ function Contact() {
                </svg>
               <p>Contact Number</p>
             </div>
-            <p className="text-gray-500 text-sm">0219000</p>
+            <p className="text-gray-500 text-sm dark:text-gray-300">0219000</p>
           </div>
 
                     <div className="border-b border-gray-200 py-2">
@@ -112,7 +112,7 @@ function Contact() {
              </svg>
               <p>Email Address</p>
             </div>
-            <p className="text-gray-500 text-sm">info@pizzahut-egypt.com</p>
+            <p className="text-gray-500 text-sm dark:text-gray-300">info@pizzahut-egypt.com</p>
           </div>
 
         </div>

@@ -4,7 +4,6 @@
   "version": "0.0.0",
   "type": "module",
   "homepage": "https://Basmalayaser.github.io/pizzaHut_Restaurant/",
-
   "scripts": {
     "dev": "vite",
     "build": "vite build",
