@@ -26,7 +26,7 @@ function Footer() {
                               </div>
                               <input id="member_email" className=" bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg  block w-full pl-10 p-2.5 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-red-500 dark:focus:border-red-500" name="email_address" aria-label="Email Address" placeholder="Your email address..." required="" type="email"/>
                           </div>
-                          <button className="px-5 py-3 text-sm font-medium text-center text-white bg-red-500 rounded-lg cursor-pointer hover:bg-red-600  dark:bg-red-600 dark:hover:bg-red-500 dark:focus:ring-red-600">Subscribe</button>
+                          <button className="px-5 py-3 text-sm font-medium text-center text-white bg-red-600 rounded-lg cursor-pointer hover:bg-red-700  dark:focus:ring-red-700">Subscribe</button>
                       </form>
               </div>
           </div>

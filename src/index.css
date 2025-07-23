@@ -9,7 +9,9 @@ body{
      font-family:  "PT Serif", serif;
      scroll-behavior: smooth;
 }
-
+:root{
+  --height:64px;
+}
 .active{
   color: #dc2626;
 }
@@ -27,4 +29,7 @@ body{
       transform: rotate(360deg);
     }
   }
+.calcHeight { 
+  height: calc(100vh - var(--height));
+ }
 }

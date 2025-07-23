@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { NavLink } from "react-router";
 import logo from "./../assets/logo.png";
-import { body } from "motion/react-client";
 
 function Navbar() {
   const [isDark, setIsDark] = useState(false);
@@ -20,7 +19,6 @@ function Navbar() {
   };
 
   return (
-    <div className="">
     <nav className="px-5 lg:px-20 md:px-10 bg-white dark:bg-black fixed z-50 top-0 start-0 end-0 shadow-sm dark:border-#101828">
       <div className="flex flex-wrap items-center justify-between py-1">
         <NavLink
@@ -218,7 +216,6 @@ function Navbar() {
         </div>
       </div>
     </nav>
-    </div>
   );
 }
 

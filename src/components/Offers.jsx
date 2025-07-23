@@ -46,8 +46,8 @@ export default function Offers() {
     {error?<p id="standard_error_help" className="my-10 text-xl text-center  text-red-600 dark:text-red-400"></p>:""}
     {loading?<Loader/>:
 
-    <div className="py-10 container px-5 lg:px-20 mx-auto">
-  <h2 className="text-xl font-bold w-fit pb-1 border-b-4 border-red-500 dark:text-white">
+  <div className="container px-5 lg:px-20 mx-auto">
+  <h2 className="text-xl font-bold w-fit pb-1 border-b-4 border-red-600 dark:text-white">
     Best Offers
   </h2>
       <Carousel

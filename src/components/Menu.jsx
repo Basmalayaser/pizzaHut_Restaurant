@@ -79,7 +79,7 @@ function Menu() {
                     onClick={() => {
                       setSelectedCategoryId(category.category_id);
                     }}
-                    className="inline-block py-2 px-4 border rounded-sm"
+                    className="inline-block py-2 px-4 mb-1 border rounded-sm"
                     id={`tab-${category.category_id}`}
                     data-tabs-target={`#panel-${category.category_id}`}
                     type="button"
